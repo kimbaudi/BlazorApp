@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{CC983DD2-4F62-42FD-85A2-EB35A4FBA5D0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingPizza", "BlazingPizza\BlazingPizza.csproj", "{239B4CB9-D482-4A1C-A5D2-40D2FA9F1FC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC983DD2-4F62-42FD-85A2-EB35A4FBA5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC983DD2-4F62-42FD-85A2-EB35A4FBA5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC983DD2-4F62-42FD-85A2-EB35A4FBA5D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239B4CB9-D482-4A1C-A5D2-40D2FA9F1FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239B4CB9-D482-4A1C-A5D2-40D2FA9F1FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239B4CB9-D482-4A1C-A5D2-40D2FA9F1FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239B4CB9-D482-4A1C-A5D2-40D2FA9F1FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
