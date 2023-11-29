@@ -1,3 +1,5 @@
+namespace BlazorApp;
+
 public class TodoItem
 {
     public string? Title { get; set; }
