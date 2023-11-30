@@ -1,4 +1,4 @@
-@page "/myorders"
+﻿@page "/myorders"
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
 
@@ -23,7 +23,7 @@
                         Items:
                         <strong>@item.Order.Pizzas.Count()</strong>;
                         Total price:
-                        <strong>�@item.Order.GetFormattedTotalPrice()</strong>
+                        <strong>£@item.Order.GetFormattedTotalPrice()</strong>
                     </div>
                     <div class="col">
                         Status: <strong>@item.StatusText</strong>
