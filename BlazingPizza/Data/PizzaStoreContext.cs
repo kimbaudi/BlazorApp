@@ -1,20 +1,17 @@
+using BlazingPizza.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlazingPizza.Data;
 
-public class PizzaStoreContext : DbContext
+public class PizzaStoreContext(DbContextOptions options) : DbContext(options)
 {
-    public PizzaStoreContext(DbContextOptions options) : base(options)
-    {
-    }
+    public DbSet<Order> Orders => Set<Order>();
 
-    public DbSet<Order> Orders { get; set; }
+    public DbSet<Pizza> Pizzas => Set<Pizza>();
 
-    public DbSet<Pizza> Pizzas { get; set; }
+    public DbSet<PizzaSpecial> Specials => Set<PizzaSpecial>();
 
-    public DbSet<PizzaSpecial> Specials { get; set; }
-
-    public DbSet<Topping> Toppings { get; set; }
+    public DbSet<Topping> Toppings => Set<Topping>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
